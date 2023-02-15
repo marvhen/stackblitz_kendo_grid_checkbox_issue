@@ -11,7 +11,7 @@ import { MyGridComponent } from './myGrid.component';
             [pageSize]="1"
             [pageable]="true"
             [navigable]="true">
-            <kendo-column field="note"></kendo-column>
+            <kendo-grid-column field="note"></kendo-grid-column>
          </kendo-grid>
 
          <button (click)="clickHandler()">dynamically create a component with a grid</button>
